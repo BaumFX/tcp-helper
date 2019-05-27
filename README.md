@@ -2,7 +2,7 @@
 
 a simple library to help handle tcp connections on the server.
 
-### usage
+## usage
 
 simply create a class that inherits the tcp_listener class from tcp_listener.h... you can then proceed to override the 3 functions on_client_connected(),
 on_client_disconnected() and on_message_received(). these get called at each event.
